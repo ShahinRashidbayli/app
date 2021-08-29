@@ -1,5 +1,5 @@
 pipeline {
-  
+  agent any
   environment {
     HEROKU_API_KEY = credentials('reshidshahin-heroku-api-key')
   }
